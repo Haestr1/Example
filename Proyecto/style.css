@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+}
+header{
+    padding: 100;
+    margin: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 2;
+}
+header .container{
+    display: flex;
+}
+p{
+    font-family: selznick;
+}
