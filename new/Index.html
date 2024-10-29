@@ -1,12 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <h1>Actividad con Java Script</h1>
-    <link rel="stylesheet" href="Style.css">
-  </head>
-  <body>
-  </body>
-  <div id="Datos"></div>
-  <script src="Script.js" type="text/javascript"></script>
+    <head>
+        <title>JavaScript Slider 1</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css">
+        <script src="Script.js"></script>    
+
+    </head>
+    <body>
+       
+        <div class="main">
+            
+            <div class="container">
+                
+                <div class="slider" id="sld">                    
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>                   
+                </div>               
+            </div>           
+            <span  class="nav previous" onclick="fPrevious()">></span>
+            <span  class="nav next" onclick="fNext()">></span>           
+        </div>        
+    </body>
 </html>
